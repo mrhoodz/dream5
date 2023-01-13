@@ -1,0 +1,51 @@
+// @import "../../colors";
+@import "../../../colors.scss";
+
+.article {
+  // DISPLAY
+  background-color: purple;
+
+  // BOX MODEL
+  padding-top: 306rem;
+  padding-bottom: 206rem;
+  padding-left: 251rem;
+
+  & .content {
+    // DISPLAY
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 35rem;
+
+    // BOX MODEL
+    width: 908rem;
+    height: 564.03rem;
+
+    // TYPOGRAPHY
+
+    & h1 {
+      position: relative;
+      width: 998rem;
+    }
+
+    & p {
+      // DISPLAY
+      display: flex;
+      // flex-direction: row;
+      align-items: center;
+      gap: 15rem;
+
+      // BOX MODEL
+
+      // TYPOGRAPHY
+    }
+
+    & .buttonArea {
+      display: flex;
+      gap: 20rem;
+      margin-left: 0rem;
+    }
+  }
+
+  // TYPOGRAPHY
+}

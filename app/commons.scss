@@ -1,0 +1,175 @@
+@import "./colors";
+
+h1 {
+  // DISPLAY
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  // BOX MODEL
+
+  // TYPOGRAPHY
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 82rem;
+  line-height: 94rem;
+  text-align: left;
+  color: $primary-text-color;
+
+  & .sub-title {
+    //typography
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 21rem;
+    letter-spacing: 0.02em;
+    line-height: 34rem;
+    color: $primary-text-color;
+  }
+}
+
+h2 {
+  // DISPLAY
+
+  // BOX MODEL
+
+  // TYPOGRAPHY
+  font-family: Poppins, "sans-serif";
+  font-size: 53rem;
+  font-weight: 600;
+  color: $secondary-color;
+}
+
+p {
+  // DISPLAY
+
+  // BOX MODEL
+  width: 812.55rem;
+  height: 134rem;
+
+  // TYPOGRAPHY
+
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25rem;
+  letter-spacing: 0.02em;
+  line-height: 41rem;
+  text-align: left;
+  color: $primary-text-color;
+}
+
+#scroll {
+  //typography
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18rem;
+}
+
+#btn {
+  // DISPLAY
+  display: flex;
+  justify-content: flex-start;
+  background-color: $primary-color;
+
+  // BOX MODEL
+  padding-inline: 43rem;
+  padding-block: 19rem;
+  width: max-content;
+  height: max-content;
+  border-radius: 999rem;
+
+  // TYPOGRAPHY
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 19rem;
+  line-height: 22rem;
+  color: #fff;
+}
+
+#download {
+  // DISPLAY
+  display: flex;
+  align-items: center;
+  gap: 13rem;
+
+  // BOX MODEL
+
+  // TYPOGRAPHY
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18rem;
+  color: $primary-text-color;
+
+  & .download-btn {
+    // DISPLAY
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // BOX MODEL
+
+    // TYPOGRAPHY
+
+    width: 68rem;
+    height: 68rem;
+    border-radius: 999rem;
+    background-color: $primary-text-color;
+    border: 3rem solid $primary-text-color;
+  }
+}
+
+#ico {
+  // DISPLAY
+  position: relative;
+  display: block;
+
+  // BOX MODEL
+  width: 24rem;
+  height: 24rem;
+  background-color: red;
+  overflow: hidden;
+
+  // TYPOGRAPHY
+
+  & .imgIcon {
+    position: relative;
+    height: 100%;
+    width: auto;
+  }
+}
+
+
+.imgContainer{
+      
+      
+  // DISPLAY
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  // BOX MODEL
+  
+  
+  // TYPOGRAPHY
+  
+
+& .img{
+
+
+// DISPLAY
+position: absolute;
+
+
+// BOX MODEL
+top: 0;
+left: 0;
+width: 100%;
+height:auto;
+
+
+
+// TYPOGRAPHY
+
+}
+
+
+}

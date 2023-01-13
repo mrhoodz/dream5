@@ -1,0 +1,95 @@
+@import "../../colors";
+
+.article {
+  // DISPLAY
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  // BOX MODEL
+  padding-top: 95.5rem;
+  background-color: rgb(66, 9, 14);
+
+  // TYPOGRAPHY
+
+  & .info {
+    position: relative;
+    // DISPLAY
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40rem;
+
+    // BOX MODEL
+    margin-left: 245rem;
+
+    // TYPOGRAPHY
+  }
+
+  & p {
+    // DISPLAY
+
+    position: relative;
+    // background-color: aqua;
+
+    // BOX MODEL
+    margin-left: 245rem;
+
+    width: 690rem;
+
+    // TYPOGRAPHY
+  }
+}
+
+.servicesArea {
+  // DISPLAY
+  background-color: lightcoral;
+  display: flex;
+  gap: 28rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  // BOX MODEL
+  margin-top: 43rem;
+
+  // TYPOGRAPHY
+
+  & .serviceCard {
+    // DISPLAY
+    position: relative;
+    // display: inline;
+
+    // BOX MODEL
+    background-color: chocolate;
+    width: 457.16rem;
+    height: 284.69rem;
+          overflow: hidden;
+
+
+    // TYPOGRAPHY
+
+
+
+
+    .serviceInfo {
+      // DISPLAY
+      position: absolute;
+
+      // BOX MODEL
+      bottom: 0rem;
+      left: 0rem;
+      width: 433.27rem;
+      height: 64.51rem;
+      background: $primary-text-color;
+
+      padding-left: 14rem;
+      padding-block: 19.6rem;
+      // opacity: 0.83;
+
+      // TYPOGRAPHY
+      color: $secondary-color;
+      font-size: 18rem;
+      font-weight: 700;
+    }
+  }
+}

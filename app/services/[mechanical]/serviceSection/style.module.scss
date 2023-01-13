@@ -1,0 +1,92 @@
+@import "../../../colors";
+
+.servicesSection {
+  // DISPLAY
+  position: relative;
+  display: flex;
+
+  // BOX MODEL
+  background-color: aqua;
+  width: max-content;
+  margin-inline: auto;
+  margin-top: 148rem;
+  gap: 50rem;
+
+  // TYPOGRAPHY
+
+  & .serviceCardsAreas {
+    // DISPLAY
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    // BOX MODEL
+    background-color: chartreuse;
+    width: 1105.04rem;
+    height: 797.36rem;
+
+    // TYPOGRAPHY
+
+    & .imgContainer {
+      // DISPLAY
+      position: relative;
+
+      // BOX MODEL
+      background-color: cadetblue;
+      width: 535.23rem;
+      height: 333.31rem;
+
+      // TYPOGRAPHY
+    }
+  }
+
+  & .sidebar {
+    // DISPLAY
+    position: relative;
+
+    // BOX MODEL
+    background-color: rgb(152, 181, 10);
+    width: 577.37rem;
+    height: 835.59rem;
+
+    // TYPOGRAPHY
+
+    & h2 {
+      // DISPLAY
+
+      // BOX MODEL
+      margin-bottom: 35rem;
+
+      // TYPOGRAPHY
+      font-size: 30rem;
+      font-weight: 600;
+      color: #010e30;
+    }
+
+    & ul {
+      // DISPLAY
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 40rem;
+
+      // BOX MODEL
+      width: max-content;
+
+      // TYPOGRAPHY
+
+      & li {
+        // DISPLAY
+
+        // BOX MODEL
+
+        // TYPOGRAPHY
+        color: $secondary-color;
+        font-size: 22rem;
+        text-decoration: none;
+        list-style: none;
+      }
+    }
+  }
+}

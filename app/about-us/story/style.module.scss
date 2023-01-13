@@ -1,0 +1,130 @@
+@import "../../colors";
+
+.article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-top: 179rem;
+  width: max-content;
+  background-color: limegreen;
+
+  //   height: 1000rem;
+
+  & .storyInfoA {
+    // DISPLAY
+    display: flex;
+    align-items: center;
+    gap: 45rem;
+
+    // BOX MODEL
+
+    // TYPOGRAPHY
+
+    & h2 {
+      //BOX MODEL
+      position: relative;
+      width: 1106rem;
+      height: 139rem;
+    }
+  }
+
+  & .storyInfoB {
+    // DISPLAY
+    display: flex;
+    align-items: center;
+    gap: 45rem;
+
+    // BOX MODEL
+
+    // TYPOGRAPHY
+
+    & h2 {
+      //BOX MODEL
+      position: relative;
+      width: 1106rem;
+      height: auto;
+    }
+  }
+
+  & p {
+    // DISPLAY
+    position: relative;
+
+    // BOX MODEL
+    width: 973.08rem;
+    height: max-content;
+    margin-block: 41.5rem;
+
+    // TYPOGRAPHY
+  }
+}
+
+.imgAside {
+  // DISPLAY
+  position: relative;
+
+  // BOX MODEL
+  width: 1419.73rem;
+  height: 561.41rem;
+  background: pink;
+
+  // TYPOGRAPHY
+}
+
+.visionMission {
+  // DISPLAY
+
+  display: flex;
+  justify-content: space-around;
+
+  // BOX MODEL
+  background-color: purple;
+  // width: 664rem;
+
+  // TYPOGRAPHY
+
+  & .sideA {
+    // DISPLAY
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 35rem;
+
+    // BOX MODEL
+    width: 664rem;
+
+    // TYPOGRAPHY
+
+    & p {
+      // DISPLAY
+      position: relative;
+
+      // BOX MODEL
+      width: 648rem;
+      height: max-content;
+      // margin-top: 31rem;
+      // margin-bottom: 19rem;
+
+      // TYPOGRAPHY
+      font-size: 21rem;
+      font-weight: normal;
+    }
+
+    & .imgContainer {
+      // DISPLAY
+      position: relative;
+
+      // BOX MODEL
+      background-color: orangered;
+      width: 664rem;
+      height: 406.45rem;
+
+      // TYPOGRAPHY
+    }
+  }
+
+  & .sideA:nth-child(2) {
+    margin-top: 99rem;
+  }
+}

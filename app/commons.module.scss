@@ -1,0 +1,86 @@
+// @import "./colors";
+
+// .article{
+
+//     & h1 {
+//         // DISPLAY
+//         display: flex;
+
+//         // BOX MODEL
+
+//         // TYPOGRAPHY
+//         font-family: Poppins;
+//         font-weight: 600;
+//         font-size: 82rem;
+//         line-height: 94rem;
+//         text-align: left;
+//         color: $primary-text-color;
+
+//         & span {
+//           //typography
+//           font-family: Poppins;
+//           font-weight: normal;
+//           font-size: 21rem;
+//           letter-spacing: 0.02em;
+//           line-height: 34rem;
+//           color: inherit;
+//         }
+//       }
+
+//       & p {
+//         // DISPLAY
+
+//         // BOX MODEL
+//         width: 812.55rem;
+//         height: 134rem;
+
+//         // TYPOGRAPHY
+
+//         font-family: Poppins;
+//         font-weight: normal;
+//         font-size: 25rem;
+//         letter-spacing: 0.02em;
+//         line-height: 41rem;
+//         text-align: left;
+//         color: $primary-text-color;
+//       }
+
+//       & .btn {
+//         // DISPLAY
+//         display: flex;
+
+//         // BOX MODEL
+//         padding-inline: 43rem;
+//         padding-block: 19rem;
+
+//         // TYPOGRAPHY
+//         font-family: Poppins;
+//         font-weight: 600;
+//         font-size: 19rem;
+//         line-height: 22rem;
+//         color: #fff;
+//       }
+
+//       & .download-btn {
+//         // DISPLAY
+//         display: flex;
+//         align-items: center;
+
+//         // BOX MODEL
+
+//         // TYPOGRAPHY
+//         font-family: Poppins;
+//         font-weight: 500;
+//         font-size: 18rem;
+//         color: $primary-text-color;
+
+//         & .download-btn{
+//           width: 68rem;
+//           height: 68rem;
+//           border-radius: 999rem;
+//           background-color: $primary-text-color;
+//           border: 3rem solid $primary-text-color;
+//             }
+//       }
+
+// }

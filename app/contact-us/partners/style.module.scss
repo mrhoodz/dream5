@@ -1,0 +1,25 @@
+.ourPartners {
+  // DISPLAY
+  position: relative;
+
+  // BOX MODEL
+  padding-top: 114rem;
+
+  // TYPOGRAPHY
+
+  & h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  & div {
+    // DISPLAY
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+
+    // BOX MODEL
+
+    // TYPOGRAPHY
+  }
+}
