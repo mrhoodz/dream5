@@ -8,7 +8,7 @@ interface dataProps {
 export const Rest: dataProps[] = [
   {
     title: "Agricultural Engineeering",
-    images: ["/1.jpg", "/2.jpg", "/3.jpg"],
+    images: ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg"],
     description: [
       "Design and development of farm machinery and equipment, such as tractors, combines, and irrigation systems.",
       "Design and construction of hydroponic greenhouses for the production of fruits using nutrient-rich water",
@@ -20,7 +20,7 @@ export const Rest: dataProps[] = [
 
   {
     title: "Mechanical and Civil Engineering",
-    images: ["/1.jpg", "/2.jpg", "/3.jpg"],
+    images: ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg"],
     description: [
 "Fabrication and assembly of mechanical components and systems.",
 "Construction management for civil engineering projects.",
