@@ -8,7 +8,7 @@
   // BOX MODEL
   background-color: aqua;
   width: max-content;
-  height: max-content;
+  // height: 1900rem;
   margin-inline: auto;
   margin-top: 148rem;
   gap: 50rem;
@@ -25,7 +25,7 @@
     // BOX MODEL
     background-color: chartreuse;
     width: 1105.04rem;
-    height: 797.36rem;
+    // height: 797.36rem;
 
     // TYPOGRAPHY
 
@@ -37,8 +37,20 @@
       background-color: cadetblue;
       width: 535.23rem;
       height: 333.31rem;
+      margin-bottom: 50rem;
 
       // TYPOGRAPHY
+
+      & .img {
+        // DISPLAY
+        position: relative;
+
+        // BOX MODEL
+        height: 100%;
+        width: 100%;
+
+        // TYPOGRAPHY
+      }
     }
   }
 

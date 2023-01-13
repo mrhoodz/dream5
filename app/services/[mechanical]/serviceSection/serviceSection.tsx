@@ -16,7 +16,10 @@ const images = info.images;
 
   <div className={style.imgContainer}>
 
-<p>{item}</p>
+
+
+    <img className={style.img} src={"/pictures/"+ info.link + item} alt=""/>
+{/* <p>{item}</p> */}
 
 
   </div>
